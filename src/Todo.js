@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Todo = ({ tasks, remove, removeAll }) => {
+const Todo = ({ tasks, remove }) => {
   return tasks.map((task, index) => (
     <div key={index}>
       <div className="todo-row">
